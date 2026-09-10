@@ -1,54 +1,102 @@
+
 <html>
     <head>
         <title>Formulário</title>
+        <style>
+            .body{
+                background-color: rgb(219, 246, 253);
+                color: rgb(0, 0, 0);
+                margin:0;
+            }
+            header{
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+                height: 150px;
+            }
+            .img-logo{
+                width: 10%;
+                Float: left;
+            }
+            .form{
+                background-color: rgb(185, 235, 241);
+                width: 50%;
+                margin: auto;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            .botao-form{
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+                margin: 10px;;
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+            }
+            form input{
+                background-color: rgb(117, 117, 153);
+                color: rgb(168, 15, 15);
+                border: 0;
+            }
+        </style>
+
 
 
     </head>
-    <body>
-        <h2>
-            Formulário de contato
-        </h2>
-        <form action="obrigado.htm" method="get"  >
-            <fieldset>
-                <label>Digite seu Nome:</label> <br>
-                <input type="text" name="nome" required placeholder="Nome"> <br>
-                <label>Digite sua Idade:</label> <br>
-                <input type="number" name="nome" required placeholder="Idade"> <br>
-                <label>Digite seu Telefone</label> <br>
-                <input type="tel" name="telefone" required placeholder="Telefone"> <br>
-                <label>Digite seu E-mail</label> <br>
-                <input type="email" name="email" required placeholder="E-mail"> <br><br>
+    <body class="body">
+        
+        <header>
+            <img class="img-logo" src="https://img.icons8.com/?size=48&id=20909&format=png" alt="nazare" width="150">
+            <h1>Site do Rafael</h1>
+            <h3>Formulário de contato</h3>
+        </header>
+        <div>
+            <h2>
+                Formulário de contato
+            </h2>
+        <form class="form" action="obrigado.htm" method="get"  >
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <label>Digite seu Nome:</label> <br>
+                    <input type="text" name="nome" required placeholder="Nome"> <br>
+                    <label>Digite sua Idade:</label> <br>
+                    <input type="number" name="idade" required placeholder="Idade"> <br>
+                    <label>Digite seu Telefone</label> <br>
+                    <input type="tel" name="telefone" required placeholder="Telefone"> <br>
+                    <label>Digite seu E-mail</label> <br>
+                    <input type="email" name="email" required placeholder="E-mail"> <br><br>
 
-                <label>Qual o seu Estado: </label>
-                <select name="estado" id="estado" required>
-                    <option disabled selected aria-placeholder="SELECIONE">SELECIONE</option>
-                    <option value="PB">PARAIBA</option>
-                    <option value="PE">PERNAMBUCO</option>
-                    <option value="CE">CEARA</option>
-                    <option value="RN">RIO GRANDE DO NORTE</option>
-                    <option value="BA">BAHIA</option>
-                </select> 
-            </fieldset><br> <br>
-            <fieldset>
-                <label>Escolha seu curso: </label>
-                <input type="radio" name="curso" value="MD" required >
-                <label>Medicina</label>
-                <input type="radio" name="curso" value="ENF" required >
-                <label>Enfermagem</label>
-                <input type="radio" name="curso" value="CC" required >
-                <label>Computação</label><br><br>
+                    <label>Qual o seu Estado: </label>
+                    <select name="estado" id="estado" required>
+                        <option disabled selected aria-placeholder="SELECIONE">SELECIONE</option>
+                        <option value="PB">PARAIBA</option>
+                        <option value="PE">PERNAMBUCO</option>
+                        <option value="CE">CEARA</option>
+                        <option value="RN">RIO GRANDE DO NORTE</option>
+                        <option value="BA">BAHIA</option>
+                    </select> 
+                </fieldset><br> 
+                <fieldset>
+                    <legend>Informações do Curso</legend>
+                    <label>Escolha seu curso: </label><br>
+                    <input type="radio" name="curso" value="MD" required > 
+                    <label>Medicina</label><br>
+                    <input type="radio" name="curso" value="ENF" required >
+                    <label>Enfermagem</label><br>
+                    <input type="radio" name="curso" value="CC" required >
+                    <label>Computação</label><br><br>
 
-                <label for >Avalie nosso site entre 0 e 5</label> <br>
-                <input type="range" name="volume" min="0" max="5" required> <br><br>
+                    <label for="volume">Avalie nosso site entre 0 e 5</label> <br>
+                    <input type="range" name="volume" id="volume" min="0" max="5" required> <br><br>
 
-                <label>Mensagem/Comentario: </label><br>
-                <textarea name="comentario" placeholder="Coloque seu comentario aqui alma sebosa" required></textarea>
-            </fieldset>
-            <button value="Enviar">Enviar</button>
-            <input type="button" value="Cadastrar">
+                    <label>Mensagem/Comentario: </label><br>
+                    <textarea name="comentario" placeholder="Coloque seu comentario aqui alma sebosa" required></textarea>
+                </fieldset> 
+                <button class="botao-form" value="Enviar">Enviar</button>
             
-            
-        </form>
+                
+                
+            </form>
+        </div>
 
 
     </body>
