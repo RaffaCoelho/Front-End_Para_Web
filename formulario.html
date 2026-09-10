@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Formulário</title>
+
+
+    </head>
+    <body>
+        <h2>
+            Formulário de contato
+        </h2>
+        <form action="obrigado.htm" method="get"  >
+            <fieldset>
+                <label>Digite seu Nome:</label> <br>
+                <input type="text" name="nome" required placeholder="Nome"> <br>
+                <label>Digite sua Idade:</label> <br>
+                <input type="number" name="nome" required placeholder="Idade"> <br>
+                <label>Digite seu Telefone</label> <br>
+                <input type="tel" name="telefone" required placeholder="Telefone"> <br>
+                <label>Digite seu E-mail</label> <br>
+                <input type="email" name="email" required placeholder="E-mail"> <br><br>
+
+                <label>Qual o seu Estado: </label>
+                <select name="estado" id="estado" required>
+                    <option disabled selected aria-placeholder="SELECIONE">SELECIONE</option>
+                    <option value="PB">PARAIBA</option>
+                    <option value="PE">PERNAMBUCO</option>
+                    <option value="CE">CEARA</option>
+                    <option value="RN">RIO GRANDE DO NORTE</option>
+                    <option value="BA">BAHIA</option>
+                </select> 
+            </fieldset><br> <br>
+            <fieldset>
+                <label>Escolha seu curso: </label>
+                <input type="radio" name="curso" value="MD" required >
+                <label>Medicina</label>
+                <input type="radio" name="curso" value="ENF" required >
+                <label>Enfermagem</label>
+                <input type="radio" name="curso" value="CC" required >
+                <label>Computação</label><br><br>
+
+                <label for >Avalie nosso site entre 0 e 5</label> <br>
+                <input type="range" name="volume" min="0" max="5" required> <br><br>
+
+                <label>Mensagem/Comentario: </label><br>
+                <textarea name="comentario" placeholder="Coloque seu comentario aqui alma sebosa" required></textarea>
+            </fieldset>
+            <button value="Enviar">Enviar</button>
+            <input type="button" value="Cadastrar">
+            
+            
+        </form>
+
+
+    </body>
+</html>
