@@ -1,0 +1,69 @@
+<html>
+    <head>
+
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="cadastro.css">
+
+    </head>
+    <body>
+        <header>
+            
+            <h1>Formulario de Cadastro Profissional</h1>
+        </header>
+        <img class="logo" src="https://cdn-icons-png.flaticon.com/512/3534/3534138.png" alt="cadastro" width="100">
+        <div>
+        <h2>Cadastro de Profissionais</h2>
+        <h3> Cadastro de entrada de profissionais na empresa Coelhos</h3>
+        <br><br><br><br>
+        <div>
+            <form class="form" action="obrigado.htm" method="get" >
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label>Nome: </label><br>
+                    <input type="text" name="nome" required placeholder="Nome"><br>
+                    <label>Data de Nascimento: </label><br>
+                    <input type="date" name="data" required><br>
+                    <label>CPF: </label><br>
+                    <input type="number" name="cpf" required placeholder="CPF"><br>
+                    <label>RG: </label><br>
+                    <input type="number" name="rg" required placeholder="RG"><br>
+
+                    <label>Estado Civil </label><br>
+                    <input type="radio" name="Estado civil" value="ST" required > 
+                    <label>Solteiro</label>
+                    <input type="radio" name="Estado civil" value="CD" required >
+                    <label>Casado</label>
+                    <input type="radio" name="Estado civil" value="d=DV" required >
+                    <label>Dirvosiado</label>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Endereço e Contato</legend>
+                    <label>Rua: </label> <br>
+                    <input type="text" name="telefone" required placeholder="Rua"> <br>
+                    <label>Bairro: </label> <br>
+                    <input type="text" name="telefone" required placeholder="Birro"> <br>
+                    <label>Cidade: </label> <br>
+                    <input type="text" name="telefone" required placeholder="Cidade"> <br>
+                    <label>Digite seu Telefone: </label> <br>
+                    <input type="tel" name="telefone" required placeholder="Telefone"> <br>
+                    <label>Digite seu E-mail: </label> <br>
+                    <input type="email" name="email" required placeholder="E-mail"> <br><br>
+                    <button class="botao-form" value="Enviar">Enviar</button>
+                </fieldset>
+
+
+            </form>
+        </div>
+
+
+
+        
+
+        <footer class="footer">
+            <p>Desenvolvido por Rafael Coelho</p>
+        </footer>
+    </body>
+
+
+</html>

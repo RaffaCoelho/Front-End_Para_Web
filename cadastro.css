@@ -1,0 +1,44 @@
+.logo{
+    
+    float: left;
+
+}
+header{
+    background-color:blueviolet;
+    color: antiquewhite;
+    height:50px;
+    text-align:center;
+}
+body{
+    background-color:cadetblue;
+    margin:0%;
+}
+h2{
+    text-align: center;
+}
+.form{
+    text-align: center;
+    padding: 20px;
+    border-radius:10px;
+    margin: auto;
+    width:100px;
+   }
+h3{
+    text-align:center;
+}
+.footer{
+    background-color:blueviolet;
+    color: rgb(10, 10, 10);
+    height:50px;
+    text-align:center;
+}
+form input{
+    background-color: rgb(117, 117, 153);
+    color: rgb(168, 15, 15);
+    border: 0;
+}
+button{
+    background-color: rgb(117, 117, 153);
+    color: rgb(168, 15, 15);
+    border: 0;
+}
