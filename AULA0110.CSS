@@ -1,3 +1,143 @@
-body{
-    blackground-image: url("https://st.depositphotos.com/1897095/1642/i/450/depositphotos_16421123-stock-illustration-blue-grunge-vignette.jpg");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body{
+    background-color: #0d1117;
+    color: #F8FAFC;
+    font-family: Arial, sans-serif;
+
+}
+HEADER{
+    background-color: #161B22;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #8B5CF6;
+}
+header h1{
+    color: #22D3EE;
+    margin-bottom: 15px;
+}
+header nav a{
+    color: #F8FAFC;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover{
+    color:  #22D3EE;
+}
+.inicio{
+    text-align: center;
+    padding: 70px 20px;
+}
+.inicio h2{
+    color:  #8B5CF6;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.inicio p{
+    color: #94A3B8;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.card {
+    background-color: #161B22;
+    width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #8B5CF6;
+    text-align: left;
+}
+.h2{
+    color: #94A3B8;
+}
+.img-logo{
+width: 25%;
+float: left;
+}
+footer {
+    background-color: #161B22;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #8B5CF6;
+}
+
+footer p {
+    color: #94A3B8;
+}
+form {
+    background-color: #161B22;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #8B5CF6;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    color: #F8FAFC;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #8B5CF6;
+    border-radius: 5px;
+    background-color: #0D1117;
+    color: #F8FAFC;
+    font-size: 15px;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #22D3EE;
+}
+form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+
+    background-color: #8B5CF6;
+    color: #F8FAFC;
+
+    border: 2px solid #8B5CF6;
+    border-radius: 8px;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #22D3EE;
+    border-color: #22D3EE;
+    color: #0D1117;
+
+    transform: scale(1.03);
+
+    box-shadow: 0 0 15px #22D3EE;
+}
+
+form button:active {
+    transform: scale(0.98);
+}
+
+
