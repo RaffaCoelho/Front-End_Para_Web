@@ -140,4 +140,33 @@ form button:active {
     transform: scale(0.98);
 }
 
+table, td, th {
 
+    background-color: #161B22;
+    max-width: 5000px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #8B5CF6;
+    text-align: center;
+}
+
+.form-tabela{
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    width: calc(100% - 40px);
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.form-tabela > form,
+.form-tabela table {
+    flex: 1;
+    width: 50%;
+    min-width: 0;
+    max-width: none;
+    margin: 0;
+    table-layout: fixed;
+    overflow-wrap: anywhere;
+}
