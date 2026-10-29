@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeFull</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="home">
+        <header>
+            <h1>AnimeFull</h1> 
+            <h2>Animes Surreais para todos</h2> 
+        </header>   
+    </div>
+
+    <div id="menu">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#obrigado">Obrigado</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="sobre">
+        <h1>Sobre</h1>
+        <p>AnimeFull é um site dedicado a fornecer informações sobre animes, incluindo resenhas, notícias e recomendações. Nosso objetivo é criar
+             uma comunidade para fãs de anime de todas as idades.</p>       
+
+        <img src="https://t3.ftcdn.net/jpg/07/32/10/90/360_F_732109080_4lXwGofazqAiysUpcCnrbflsNOl9EMdW.jpg" alt="Imagem do AnimeFull" width="2000">
+    </div>
+    
+    <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Frieren</h3><br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDs7qyUIaCRaCevTvMj4ieISpD1KNazMg5RByQglBPQg&s=10" alt="Frieren" width="200"><br><br>
+      <p>Uma elfa e seus amigos derrotam um rei demônio em uma grande guerra. Após a guerra terminar, a elfa precisa buscar um novo modo de vida.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtlT3PRW5kBk0lzFKLmt_A7Nl7K3eH37-V2KBFzcor9Q&s=10" alt="Column 2" width="200"><br><br>
+      <p>Acompanha as aventuras de Monkey D. Luffy, um jovem que ganha propriedades de borracha após comer uma fruta misteriosa 
+        (Akuma no Mi), com o sonho de encontrar o tesouro lendário de Gol D. Roger e se tornar o Rei dos Piratas</p>
+      
+    </div>
+  </div>
+</div>
+
+    <div id="anime">
+        <h1>Anime Favorito</h1>
+        <p>Nos diga qual o seu anime favorito:</p>
+        <form id="meuFormulario" action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" ><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensagem">Animes que mais você gosta:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div>
+        <footer>
+            <p>&copy; 2024 AnimeFull. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
