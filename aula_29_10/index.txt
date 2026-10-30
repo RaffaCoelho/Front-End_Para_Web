@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://http2.mlstatic.com/D_NQ_NP_758234-CBT109966628222_042026-O.webp" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeFull</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+    
+</head>
+<body>
+    <div id="home">
+        <header>
+            <h1>AnimeFull</h1> 
+            <h2>Animes Surreais para todos</h2> 
+        </header>   
+    </div>
+
+    <div id="menu">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#anime">Animes</a></li>
+                <li><a href="#gostos">Forms de Animes Favoritos</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="sobre">
+        <h1>Sobre</h1>
+        <h4>AnimeFull é um site dedicado a fornecer informações sobre animes, incluindo resenhas, notícias e recomendações.<br> Nosso objetivo é criar
+             uma comunidade para fãs de anime de todas as idades.</h4>   <br><br><br>    
+
+        <img src="https://t3.ftcdn.net/jpg/07/32/10/90/360_F_732109080_4lXwGofazqAiysUpcCnrbflsNOl9EMdW.jpg" alt="Imagem do AnimeFull" width="1500">
+    </div><br><br><br>
+    
+    <div class="container">
+  <div class="row" id="anime">
+   
+    <div class="col-sm-4">
+      <h3>Frieren</h3><br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDs7qyUIaCRaCevTvMj4ieISpD1KNazMg5RByQglBPQg&s=10" alt="Frieren" width="200"><br><br>
+      <p>Uma elfa e seus amigos derrotam um rei demônio em uma grande guerra. Após a guerra terminar, a elfa precisa buscar um novo modo de vida.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>One Piece</h3><br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtlT3PRW5kBk0lzFKLmt_A7Nl7K3eH37-V2KBFzcor9Q&s=10" alt="Column 2" width="200"><br><br>
+      <p>Acompanha as aventuras de Monkey D. Luffy, um jovem que ganha propriedades de borracha após comer uma fruta misteriosa 
+        (Akuma no Mi), com o sonho de encontrar o tesouro lendário de Gol D. Roger e se tornar o Rei dos Piratas</p>
+    </div>
+     <div class="col-sm-4">
+      <h3>Demon Slayer</h3><br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6xYZk4cn4JQR2cNsJw42x0s1KFkj7tuMzPM9Qs3FEQ&s=10" alt="Column 2" width="200"><br><br>
+      <p>Kimetsu no Yaiba, também conhecido pelo título em língua inglesa Demon Slayer é uma série japonesa de mangá shōnen escrita e ilustrada por Koyoharu Gotōge.</p>
+    </div>
+  </div><br><br><br>
+</div>
+
+    <div id="gostos">
+        <h1>Anime Favorito</h1>
+        <h3>Nos diga qual o seu anime favorito:</h3><br><br>
+        <form id="meuForm" action="" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" ><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" ><br>
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" name="idade" ><br>
+            <label for="mensagem">Animes que mais você gosta:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" ></textarea><br><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+<br><br><br><br><br>
+    <div>
+        <footer>
+            <h5>&copy; 2026 AnimeFull. Todos os direitos reservados.</h5>
+        </footer>
+    </div>
+    
+</body>
+</html>
+<script src="script.js"></script>

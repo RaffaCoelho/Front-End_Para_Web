@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://http2.mlstatic.com/D_NQ_NP_758234-CBT109966628222_042026-O.webp" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeFull - Obrigado</title>
+    <link rel="stylesheet" href="style.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.html" >
+
+</head>
+<body>
+    <div id="menu">
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="index.html#anime">Contato</a></li>
+                <li><a href="index.html#gostos">Obrigado</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Obrigado!</h1>
+        <h4>Obrigado por nos fornecer seus animes favoritos, com eles traremos mais conteúdos que você 
+            vai adorar!</h4>
+
+        <img src="https://i.pinimg.com/736x/74/10/85/7410858ce3c4e225ec250a331065d241.jpg" alt="Column 2" width="1000"><br><br>
+
+
+    </div><br><br><br><br><br><br>
+    
+    <div>
+        <footer>
+            <h5>&copy; 2026 AnimeFull. Todos os direitos reservados.</h5>
+        </footer>
+    </div>
+    
+</body>
+</html>

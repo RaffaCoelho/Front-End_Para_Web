@@ -5,11 +5,16 @@
     text-align: center;
     background-color:  #0B0F1A;
     color: #fff;
+ 
 }
 header {
     background-color: #da5a49;
     padding: 20px;
     text-align: center;
+}
+p {
+    color: #F8FAFC;
+    text-align: justify;
 }
 nav {
     background-color: #343a40;
@@ -24,32 +29,86 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-right: 30px;
+    font-size: 18px;
 }
 nav ul li a {
     color: rgb(190, 106, 106);
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 30px;
     border-radius: 5px;
 }
 nav ul li a:hover {
-    background-color: #007bff;
+    background-color: #8d4225;
 }
 footer {
     background-color: #343a40;
     color: #fff;
     padding: 20px;
     text-align: center;
+    
 }
 form {
-    margin: 20px auto;
-    max-width: 400px;
-    text-align: center;
+    background-color: #161B22;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #da5a49;
+    text-align: left;
 }
-button {
-    background-color: #da5a49;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
+
+form label {
+    display: block;
+    color: #F8FAFC;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #da5a49;
     border-radius: 5px;
+    background-color: #0D1117;
+    color: #F8FAFC;
+    font-size: 15px;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #da5a49;
+}
+form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+
+    background-color: #8B5CF6;
+    color: #F8FAFC;
+
+   /*border: 2px solid #8B5CF6;*/
+    border-radius: 8px;
+
+    font-size: 17px;
+    font-weight: bold;
+
     cursor: pointer;
+
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #22D3EE;
+    border-color:rgb(190, 106, 106);
+    color: #0D1117;
+
+    transform: scale(1.03);
+
+    box-shadow: 0 0 15px #22D3EE;
+}
+
+form button:active {
+    transform: scale(0.98);
 }
